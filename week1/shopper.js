@@ -1,7 +1,7 @@
 var shopper = {
     name: "Donnie",
     wallet: 80,
-    hasMoney: true,
+    hasCash: true,
     buy: function() {
         return this.name + "is purchasing groceries";
     },
