@@ -1,9 +1,10 @@
 var shopper = {
-    name: "Donnie",
-    wallet: 80,
+    firstName: "Donnie",
+    lastName: "Roberts",
+    itemCount: 4,
     hasCash: true,
-    buy: function() {
-        return this.name + "is purchasing groceries";
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
     },
-    groceryCart: ["bread", "alfredo sauce", "chicken breasts", "fettucini pasta",]
+    cart: ["bread", "alfredo sauce", "chicken breasts", "fettucini pasta",]
 }
